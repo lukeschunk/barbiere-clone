@@ -1,0 +1,164 @@
+body {
+  font-family: sans-serif;
+}
+
+#nav-bar {
+  background-color: #f4faf8;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;å
+}
+
+#left-header {
+  color: black;
+  flex: 1;
+}
+
+#nav-bar img {
+  width: 100px;
+}
+
+#nav-links {
+  display: flex;
+  align-items: row;
+  color: black;
+}
+
+#nav-links h5 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#top-image-section {
+  display: flex;
+  height: 680px;
+  background-image: url("./images/main.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-container-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-container-logo img {
+  height: auto;
+  width: 520px;
+}
+
+#main-container-logo button {
+  margin-top: 20px;
+}
+
+#definition-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  background-color: #E9F2EE;
+}
+
+#definition-text {
+  width: 520px;
+}
+
+
+
+#about-the-shop-section {
+  display: flex;
+  background-color: #f4faf8;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.divider {
+  width: 50px;
+  /*border-bottom: 3px solid gray;*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#column-box {
+  display: flex;
+}
+
+#left-column {
+  flex: 7
+}
+
+#right-column {
+  flex: 6
+}
+#right-column div {
+  margin-left: 40px;
+}
+
+#right-column img {
+  width: 100%;
+}
+
+#growing-team-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #E9F2EE;
+}
+
+.left-column-text-container {
+  width: 400px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+
+#book-appointment-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex-direction: column;
+  background-color: #3b4650;
+  color: white;
+}
+
+#book-appointment-placeholder {
+  width: 400px;
+  height: 300px;
+  background-color: gray;
+}
+
+#get-in-touch-section {
+  display: flex;
+  background-color:  #f4faf8;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  flex-direction: column;
+}
+
+.social-row {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-bottom: 30px;
+}
